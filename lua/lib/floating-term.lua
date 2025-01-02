@@ -39,4 +39,4 @@ local toggle_term = function()
 	end
 end
 
-vim.api.nvim_create_user_command("FTerm", toggle_term, {})
+vim.api.nvim_create_user_command("Fterm", toggle_term, {})

@@ -1,3 +1,4 @@
+-- Auto Cmd ColorScheme
 vim.api.nvim_create_autocmd({ "VimEnter" }, {
 	nested = true,
 

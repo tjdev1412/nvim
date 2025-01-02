@@ -1,8 +1,8 @@
-require("core.options")
-require("core.keymaps")
-require("core.autocmd")
+require("options.preferences")
+require("options.keymaps")
+require("options.autocmd")
 
 require("plugins.lazy")
 
 
-require("util.floating-term")
+require("lib.floating-term")
